@@ -1,4 +1,4 @@
-package JavaSrc.question;
+package JavaSrc.question.Lection12;
 
 public class Lection12_2 {
         // what instruction is illegal?

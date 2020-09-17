@@ -1,4 +1,4 @@
-package JavaSrc.question;
+package JavaSrc.question.Lection12;
 
 /* con final class A non possiamo avere nessuno tipo di specializzazione, quindi il programma non compila 
                         fino a che la classe A è marcata final                               */

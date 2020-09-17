@@ -1,4 +1,4 @@
-package JavaSrc.question;
+package JavaSrc.question.Lection12;
 
 public class StaticBlocks {
     static int x = 10; // x is 10
