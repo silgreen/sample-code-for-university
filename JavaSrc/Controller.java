@@ -1,3 +1,4 @@
+package JavaSrc;
 public final class Controller {
     public static void main(String[] args) {
         Persona [] listaInvitati;

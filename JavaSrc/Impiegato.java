@@ -1,3 +1,4 @@
+package JavaSrc;
 public class Impiegato extends Persona {
     private double stipendio;
 
