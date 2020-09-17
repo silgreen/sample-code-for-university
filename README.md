@@ -12,3 +12,5 @@ This repo exists because:
 
 During this course i have encoutered the functional Language ML and the logic one Prolog.
 I will add soon snippets of code written in this languages.
+
+You can find source files of examples and exercises with solutions and exaplanation in comments. I hope that will be usefull for anyone
