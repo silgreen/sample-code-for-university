@@ -10,6 +10,10 @@ This repo exists because:
 <li>I want to improve my Version Control skills</li>
 </ol>
 
+Usefull links:
+Standard ML of New Jersey: http://www.smlnj.org/ here you can download the compiler
+
+
 During this course i have encountered the functional Language ML and the logic one Prolog.
 I will add soon snippets of code written in this two languages.
 
