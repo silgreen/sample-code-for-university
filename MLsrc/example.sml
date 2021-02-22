@@ -19,7 +19,7 @@
 (*val it = 97 : int
   val it = 98 : int *)
 
-- 3 + 2.2; (*ERROR! in Ml the explicit cast does'nt exist*)
+- 3 + 2.2; (*ERROR! in Ml the explicit cast doesn't exist*)
 
 - real(3) + 2.2; 
 (*this is correct and the output is:

@@ -14,10 +14,29 @@ fun empty(nil) = true
 
 (*  count elements in a list    *)
 
-fun count (nil) = 0 (* if we pass an empty list then return 0*)
-|   count(h::t) = count(t) + 1; (* if we pass a non empty list then call recursively *)
+fun countList (nil) = 0 (* if we pass an empty list then return 0*)
+|   countList(h::t) = count(t) + 1; (* if we pass a non empty list then call recursively *)
 
 (*  check if an element is member of a list    *)
 
 fun member(nil,x) = false
 |member(h::t,x) = if h = x then true else member(t,x);
+
+fun count(0) = 0 
+| count(n) = 1 + count(n-1); (*count from 0 to n*)
+
+fun fact(0) = 1 
+| fact(n) = n * fact(n-1); (*that compute the factorial of n*)
+
+fun min(nil) = 0
+|min(h::t) = if h <= t 
+
+(*      superior order functions    *)
+(*      map is a default function   *)
+
+fun filter(nil) = nil
+| filter(h::t) = if f(h) then x::(filter(y)) else filter(y);
+
+fun reduce f e [] = e
+| reduce f e (h :: t) = f (h, reduce t)
+
