@@ -23,13 +23,17 @@ fun member(nil,x) = false
 |member(h::t,x) = if h = x then true else member(t,x);
 
 fun count(0) = 0 
-| count(n) = 1 + count(n-1); (*count from 0 to n*)
+| count(n) = 1 + count(n-1); (*count from 0 to n*);
 
 fun fact(0) = 1 
-| fact(n) = n * fact(n-1); (*that compute the factorial of n*)
+| fact(n) = n * fact(n-1); (*that compute the factorial of n*);
 
 fun min(nil) = 0
-|min(h::t) = if h <= t 
+|min(h::t) = if h <= t ;
+
+(* append function *)
+fun append(nil,l2) = l2
+|append(h::t,l2) = h::t @ l2;
 
 (*      superior order functions    *)
 (*      map is a default function   *)

@@ -29,5 +29,9 @@ member(X,[_|T) :- member(X,T).
 rev([],[]).
 rev([H|T],R) :- rev(T,RevT), append(RevT,[H],R).
 
+/*arithmetic*/
+sum(0,0).
+sum(N,X) :- N > 0, N1 is N - 1, sum(N1,sumtot)
+
 fatt(0,1).
 fatt(N,F) :- N > 0, N1 is N-1, fatt(N1,F1), F is N * N1. 
