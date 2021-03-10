@@ -7,8 +7,8 @@ This repo exists because:
 <li>I want to improve my Version Control skills</li>
 </ol>
 
-Usefull links:
-Standard ML of New Jersey: http://www.smlnj.org/ here you can download the compiler
+Usefull links: <br>
+Standard ML of New Jersey: http://www.smlnj.org/ here you can download the compiler <br>
 Swi-Prolog: https://www.swi-prolog.org/ 
 
 
