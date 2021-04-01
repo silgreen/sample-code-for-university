@@ -14,6 +14,7 @@ Usefull links: <br>
   <li>Standard ML of New Jersey: http://www.smlnj.org/ here you can download the compiler</li>
   <li>Swi-Prolog: https://www.swi-prolog.org/</li> 
   <li>Java documentation: https://docs.oracle.com/en/java</li>
+  <li>Vim Website: www.vim.org</li>
 </ul>
 
 During this course i have encountered the functional Language ML and the logic one Prolog.
