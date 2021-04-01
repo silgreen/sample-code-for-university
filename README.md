@@ -5,16 +5,16 @@ This repo exists because:
   <li>I need a backup for my source files to swap between different devices</li>
   <li>I want to improve my english skills</li>
   <li>I improving my Version Control skills</li>
-  <li>I'm learnig git from the command line<li>
-  <li>I'm using vim as main text editor<li>
+  <li>I'm learnig git from the command line</li>
+  <li>I'm using vim as main text editor</li>
 </ol>
 
 Usefull links: <br>
 <ul>
-  <li>Standard ML of New Jersey: http://www.smlnj.org/ here you can download the compiler<li>
-  <li>Swi-Prolog: https://www.swi-prolog.org/<li> 
-  <li>Java documentation: https://docs.oracle.com/en/java<li>
-<ul>
+  <li>Standard ML of New Jersey: http://www.smlnj.org/ here you can download the compiler</li>
+  <li>Swi-Prolog: https://www.swi-prolog.org/</li> 
+  <li>Java documentation: https://docs.oracle.com/en/java</li>
+</ul>
 
 During this course i have encountered the functional Language ML and the logic one Prolog.
 
