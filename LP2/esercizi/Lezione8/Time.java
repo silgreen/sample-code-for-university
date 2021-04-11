@@ -29,7 +29,7 @@ class Time implements Comparable<Time> {
 	@Override
 	public int compareTo(Time t) {	
 		final int thisTime = this.timeToSeconds();
-		final int paramTime = t.timeToseconds();
+		final int paramTime = t.timeToSeconds();
 		
 		if(thisTime > paramTime) return 1;
 		if(thisTime < paramTime) return -1;
