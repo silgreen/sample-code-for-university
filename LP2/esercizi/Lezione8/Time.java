@@ -40,8 +40,12 @@ class Time implements Comparable<Time> {
 	Time t1 = new Time(14,35,0);
 	Time t2 = new Time(7,10,30);
 	Time t3 = t1.minus(t2);
+	Time t4 = new Time(15,0,0);
+
+	Time t5 = t1.minus(t4);
 
 	System.out.println(t3);
+	System.out.println(t5);
 	System.out.println(t3.compareTo(t2));
 	System.out.println(t3.compareTo(Time.MIDDAY));
 	}
