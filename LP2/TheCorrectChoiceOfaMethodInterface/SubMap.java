@@ -12,6 +12,7 @@ class SubMap {
 	public static void main(String[] args) {
 		List<Integer> l = new LinkedList<>();
 		Map<Integer,String> map = new HashMap<>();
+		SubMap sm = new SubMap();
 
 		l.add(1);l.add(12);l.add(5);l.add(5);
 		map.put(1,"ciccio");map.put(12,"franco");map.put(6,"girolamo");map.put(5,"sangiuseppe");
