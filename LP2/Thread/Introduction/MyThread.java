@@ -2,6 +2,7 @@ import java.util.*;
 
 /**
 	First Implementation: sub-class of Thread
+	Every Thread is a class, so we inherit all the methods of the Thread class but a new thread is a new instance of MyThread object
 */
 class MyThread extends Thread {
 	@Override
@@ -15,14 +16,14 @@ class MyThread extends Thread {
 			System.out.print(".");
 			Thread.sleep(500);
 			Thread.sleep(1500);
-		} catch(InterruptedException e) {  
-			return;
+		} catch(InterruptedException e) {  //sleep() is a blocker method, so we must handle the Interruption with an exception
+			return;			   //that is a good idea to handle sudden interruption correctly
 		}
 	}
 
 	public static void main(String[] args) {
-		Thread t = new MyThread();
+		Thread t = new MyThread(); 
 		System.out.println("Sono il Main *-*");
-		t.start();
+		t.start();	//this is the entry point of the Thread 
 	}
 }
