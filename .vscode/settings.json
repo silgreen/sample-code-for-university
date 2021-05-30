@@ -1,9 +1,13 @@
 {
     "java.project.sourcePaths": [
+        "LP2/Thread/Synchronized/Esercizi/votebox",
+        "LP2/Thread/Synchronized/Esercizi/market",
         "LP2/Thread/Synchronized/Esercizi/ConcurrentJobExercise",
+        "LP2/Thread/Synchronized/Concurrency",
+        "LP2/Thread/JMM",
         "LP2/Thread/Introduction/Esercizi/RunWithArg",
         "LP2/Thread/Introduction/Esercizi/Periodic",
         "LP2/Thread/Introduction",
-        "LP2/Thread/Synchronized/Concurrency"
+        "LP2/Thread/ConsumerProducer"
     ]
 }
