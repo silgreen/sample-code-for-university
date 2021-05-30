@@ -1,21 +1,28 @@
+import java.util.Iterator;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
-public class Market {
+public class MarketNoOneLine {
     private BlockingQueue<Double> prices = new LinkedBlockingQueue<>();
 
+    /** in this file i use the iterator to "filter" the bocking queue "manually"
+     * so we have another function that search and remove the element that respect the condition, if the procedure finish well we return true
+     * In the Market file we do that with removeIf function
+     */
+
+    public boolean search(double p, BlockingQueue<Double> priceList) {
+        Iterator<Double> i = priceList.iterator();
+
+        while(i.hasNext()) {
+            double d = i.next();
+            if(d <= p) {i.remove(); return true;}
+        }
+        return false;
+    }
+
     public synchronized void buy(double p) throws InterruptedException {
-        
-        // prices.removeIf(Predicate<Double> predicate = new Predicate<Double>(){
-        //     @Override
-        //     public boolean test(Double t) {
-        //         // TODO Auto-generated method stub
-        //         return false;
-        //     }
-        // });
-        while(!prices.removeIf(number -> number < p)) wait();
+        while(!search(p, prices)) wait();
         notifyAll();
-        
     }
 
     public synchronized void sell(double p) throws InterruptedException {
