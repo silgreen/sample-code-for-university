@@ -8,6 +8,7 @@
         "LP2/Thread/Introduction/Esercizi/RunWithArg",
         "LP2/Thread/Introduction/Esercizi/Periodic",
         "LP2/Thread/Introduction",
-        "LP2/Thread/ConsumerProducer"
+        "LP2/Thread/ConsumerProducer",
+        "LP2/Thread/Executor"
     ]
 }
