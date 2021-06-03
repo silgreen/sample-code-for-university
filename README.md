@@ -17,7 +17,7 @@ Usefull links: <br>
   <li>Vim Website: www.vim.org</li>
 </ul>
 
-#Programming Language 1
+<h1>Programming Language 1</h1>
 
 During this course i have encountered the functional Language ML and the logic one Prolog.
 
