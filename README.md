@@ -27,3 +27,5 @@ The programming Language 1 course is finished and now i'm following the second o
 This course is a mix of software engineering and an advanced java programming course.  
 
 i will upload all my exercises on this repo.
+
+The course is finished on 03/06/2021 and here i will post the arguments of the course:
