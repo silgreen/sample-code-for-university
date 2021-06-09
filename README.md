@@ -17,6 +17,8 @@ Usefull links: <br>
   <li>Vim Website: www.vim.org</li>
 </ul>
 
+<h1>Programming Language 1</h1>
+
 During this course i have encountered the functional Language ML and the logic one Prolog.
 
 You can find source files of examples and exercises with solutions and exaplanation in comments. I hope that will be usefull for anyone 
@@ -27,3 +29,5 @@ The programming Language 1 course is finished and now i'm following the second o
 This course is a mix of software engineering and an advanced java programming course.  
 
 i will upload all my exercises on this repo.
+
+The course is finished on 03/06/2021 and here i will post the arguments of the course:
