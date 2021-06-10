@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "LP2/esercitazione/ExerciseLesson3",
         "LP2/Thread/Synchronized/Esercizi/votebox",
         "LP2/Thread/Synchronized/Esercizi/market",
         "LP2/Thread/Synchronized/Esercizi/ConcurrentJobExercise",
@@ -10,6 +11,6 @@
         "LP2/Thread/Introduction",
         "LP2/Thread/Executor",
         "LP2/Thread/ConsumerProducer",
-        "LP2/esercitazione/ExerciseLesson3"
+        "LP2/esercitazione/ExerciseLesson5"
     ]
 }
