@@ -1,5 +1,8 @@
 public class ArrayGenerics{
-    /**this method accept every type of array because is parametric */
+    /**this method accept every type of array because is parametric
+    *  to use a parametric method we must specify the generic paramater
+    *  T before the return type.
+    */
     static <T> T getMedian(T[] arr) {
         return arr[(arr.length - 1) / 2];
     }
