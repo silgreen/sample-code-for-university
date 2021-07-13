@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "java.project.sourcePaths": [
     "LP2/codiceProva",
     "LP2/classiInterne",
@@ -10,3 +11,22 @@
     "LP2/esercizi/lezione6"
   ]
 }
+=======
+    "java.project.sourcePaths": [
+        "LP2/esercizi/Lezione8",
+        "LP2/esercitazione/ExerciseLesson5",
+        "LP2/esercitazione/ExerciseLesson3",
+        "LP2/Thread/Synchronized/Esercizi/votebox",
+        "LP2/Thread/Synchronized/Esercizi/market",
+        "LP2/Thread/Synchronized/Esercizi/ConcurrentJobExercise",
+        "LP2/Thread/Synchronized/Concurrency",
+        "LP2/Thread/JMM",
+        "LP2/Thread/Introduction/Esercizi/RunWithArg",
+        "LP2/Thread/Introduction/Esercizi/Periodic",
+        "LP2/Thread/Introduction",
+        "LP2/Thread/Executor",
+        "LP2/Thread/ConsumerProducer",
+        "LP2/esercitazione/ExerciseLesson6"
+    ]
+}
+>>>>>>> 90624ce5974272d9182ab9dfc2b9c6b4523f027c

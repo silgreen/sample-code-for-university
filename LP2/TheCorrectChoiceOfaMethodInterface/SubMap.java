@@ -14,8 +14,15 @@ class SubMap {
 		Map<Integer,String> map = new HashMap<>();
 		SubMap sm = new SubMap();
 
-		l.add(1);l.add(12);l.add(5);l.add(5);
-		map.put(1,"ciccio");map.put(12,"franco");map.put(6,"girolamo");map.put(5,"sangiuseppe");
+		l.add(1);
+		l.add(12);
+		l.add(5);
+		l.add(5);
+		
+		map.put(1,"brad");
+		map.put(12,"micheal");
+		map.put(6,"lucas");
+		map.put(5,"christian");
 
 		Map<Integer,String> mapResult = subMap(map,l);
 
