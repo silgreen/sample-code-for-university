@@ -10,6 +10,9 @@ public class BinaryTreeIterator implements Iterator<BinaryTreeNode> {
         r = root;
     }
 
+    /**
+     * visita di un albero in pre order iterativa
+     */
     @Override
     public BinaryTreeNode next() {
         BinaryTreeNode val = r;
